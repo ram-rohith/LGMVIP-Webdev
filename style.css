@@ -1,0 +1,28 @@
+.head
+{ 
+  border: 2px solid black;  
+  background-image: url('images/image-1/img1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width:fill;
+  height:550px;
+ 
+}
+.ButG
+{
+    float:right;
+    margin-top: 20px;
+}
+button:hover
+{
+    background-color: tomato;
+}
+button
+{
+    background-color: transparent;
+    color: whitesmoke;
+}
+
+
+ 
