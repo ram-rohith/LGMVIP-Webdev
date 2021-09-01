@@ -1,14 +1,78 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+       <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>ZIPPY</title>
+        <link rel="icon" href="eagle.png" type="image/x-icon">
+        <link  rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     </head>
     <body>
-    <header>
-        <p style="text-align: center;margin-right: 800px;font-size: 40px;">ZIPPY</p>
-        
+   <div class="head" id="head">
+    <script>  
+      var images = ["img1.jpg","img2.jpg","img3.jpg","img4.jpg","img5.jpg"];
+    $(function () 
+    {
+        var i = 0;
+        $("#head").css("background-image", "url(backimages/" + images[i] + ")");
+        setInterval(function () {
+            i++;
+            if (i == images.length) 
+            {
+                i = 0;
+            }
+            $("#head").fadeOut(0.5, function () {
+                $(this).css("background-image", "url(backimages/" + images[i] + ")");
+                $(this).fadeIn(100);
+            });
+        },5000);
+    });
+    </script>
+     <span style="text-align:left;font-size: 40px;color: whitesmoke;margin-left:80px;"class="logo"><a href="#HOME"style="border:none"><b>ZIPPY</b></a></span> 
+    <span class="ButG">
+       <a href="#home"><i class="fa fa-home"></i><b> HOME</b></a>
+        <a href="#project"><b>PROJECTS</b></a> 
+        <a href="#price"><span>&#8377;<span><b> PRICE</b></a> 
+        <a href="#team"><b>TEAM</b></a> 
+        <a href="#blog"><b>BLOG</b></a> 
+        <a href="#contact"><i class="fa fa-phone"></i><b> CONTACT</b></a> 
+    </span>
+    <h1 style="text-align: center;margin-top: 200px;color: whitesmoke;border:4px solid black;width:650px;height:80px;margin-left:450px;"><b><q class="mess"> ONE PAGE PROMISING TO FILL ALL YOUR NEEDS </q></b></h1>
+    </div>
+    <!--team code-->
+<div class="team" id="team">
+    <h1 style="text-align: center;"><b><u>OUR TEAM</u></b></h1>
+  <img src="team/p1.jpg" alt="p1" class="avatar" style="margin-left: 220px;">
+  <img src="team/p2.jpg" alt="p2" class="avatar" style="margin-left: 150px;">
+  <img src="team/p3.jpg" alt="p3" class="avatar" style="margin-left: 150px;">
+  <br>
+  <img src="team/p4.jpg" alt="p4" class="avatar" style="margin-left: 220px;">
+  <img src="team/p5.jpg" alt="p5" class="avatar" style="margin-left: 150px;">
+  <img src="team/p6.jpg" alt="p6" class="avatar" style="margin-left: 150px;">
+</div> 
 
-    </header>
-
-    </body>
+    <!--contact code-->
+   <div class="contact" id="contact" style="background-color: black;color: white;">
+       <div style="float:left;width:20%;margin-left: 280px;text-align: center">
+           <h3>OFFICE ADDRESS</h3>
+           <p style="font-size: 17px;"><em><b>lorem ipsum dolor,234<b></em></p>
+           <p style="font-size: 17px;"><em><b>1200 consecutive,</b></em></p>
+           <p style="font-size: 17px;"><em><b>adispching.</b></em></p>
+        </div>
+       <div style="float:left;width:20%;margin-left:60px;text-align: center;">
+           <h3>CONTACT US</h3>
+           <p><em><b>ramrohith12@gmail.com</b><em></p>
+           <p><em><b>+91 7569584955</em></b></p>
+        </div>
+        <div style="float:left;width:20%;margin-left:60px;text-align: center;">
+            <h3>FOLLOW ON</h3>
+            <a href="https://twitter.com/rohithreddykal1" target="_blank"><i class="fa fa-twitter" style="color:red;font-size:36px"></i></a>
+            <a href="https://www.facebook.com/ramrohithreddy12" target="_blank"><i class="fa fa-facebook" style="color:red;font-size:36px"></i></a>
+            <a href="https://www.instagram.com/ram_rohith__reddy12/" target="_blank"><i class="fa fa-instagram" style="color:red;font-size:36px"></i></a>
+        </div>
+   </div>
+   </body>
 </html>
