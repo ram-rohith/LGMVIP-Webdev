@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <meta charset="utf8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>ZIPPY</title>
+        <link rel="icon" href="eagle.png" type="image/x-icon">
+        <link  rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="js-1.js"></script>
+    </head>
+    <body style=" background-image: linear-gradient(to bottom right, orange, red);">
+   <div class="head" id="head">
+    <script>  
+      var images = ["img1.jpg","img2.jpg","img3.jpg","img4.jpg"];
+    $(function () 
+    {
+        var i = 0;
+        $("#head").css("background-image", "url(backimages/" + images[i] + ")");
+        setInterval(function () {
+            i++;
+            if (i == images.length) 
+            {
+                i = 0;
+            }
+            $("#head").fadeOut(0.2, function () {
+                $(this).css("background-image", "url(backimages/" + images[i] + ")");
+                $(this).fadeIn(100);
+            });
+        },5000);
+    });
+    </script>
+     <span class="logo"><a href="#home"style="border:none"><b>ZIPPY</b></a></span> 
+    <span class="ButG">
+       <a href="#home" class="b"><i class="fa fa-home"></i><b> HOME</b></a>
+        <a href="#project" class="b"><b>PROJECTS</b></a> 
+        <a href="#price" class="b"><span>&#8377;<span><b> PRICE</b></a> 
+        <a href="#team" class="b"><b>TEAM</b></a> 
+        <a href="#contact" class="b"><i class="fa fa-phone"></i><b> CONTACT</b></a> 
+        <a href="#signup" class="b"><b>SIGNUP</b></a>
+    </span>
+    <h1><b><q class="mess"> ONE PAGE PROMISING TO FILL ALL YOUR NEEDS </q></b></h1>
+    </div>
+<!--HOME code-->
+    <div class="home" id="home">
+        <h1 style="text-align: center;"class="sha"><strong>WELCOME TO ZIPPY</strong></h1>
+    <div class="intro">
+        <p style="font-size: 24px;text-align: center">
+       <q> This is a Photoshop version of LoremIpsum.
+        Gravida nibhvel velit auctor aliquet.
+        Aenean sollicitudin, lorem quis bibendum auctor.
+        </q>
+        </p>
+    </div>
+    <div class="home-pic">
+     <img src="home/pic1.jpg" style="width:200px;height:200px">
+    </div>
+    <div class="cardhome">
+      <div class="cd">
+        <i class="fa fa-bell"></i>
+        <p style="text-align: center;font-size:21px;"><b>LOREM IPSUM</b></p>
+        <p style="text-align: center;font-size: 19px;">Lorem ipsum dolor sit amet,consecutor adipsoing.
+          Peterhesque velodio vel lelis placenat phanetra ot vitae lelis.</p>
+      </div>
+      <div class="cd">
+        <i class="fa fa-envelope"></i>
+        <p style="text-align: center;font-size:21px;"><b>DOLOR SIT</b></p>
+        <p style="text-align: center;font-size: 19px;">Lorem ipsum dolor sit amet,consecutor adipsoing.
+          Peterhesque velodio vel lelis placenat phanetra ot vitae lelis.</p>
+      </div>
+      <div class="cd">
+        <i class="fa fa-tasks"></i>
+        <p style="text-align: center;font-size:21px;"><b>CONSECTETURE</b></p>
+        <p style="text-align: center;font-size: 19px;">Lorem ipsum dolor sit amet,consecutor adipsoing.
+             Peterhesque velodio vel lelis placenat phanetra ot vitae lelis.</p>
+      </div>
+    </div>
+  </div>
+<!--project code-->
+   <div class="project" id="project">
+    <h1 style="text-align: center;" class="sha"><strong>PROJECTS</strong></h1>
+    <br>
+    <div class="cardpro">
+        <img src="project/pro1.jpg" alt="project1" style="width:100%;">
+        <h3>ANDROID PROJECT</h3>
+        <p>Project contains everything that defines your workspace for an app, from source code and assets, to test code and build configurations.</p>
+        <button><a href="#head">EXPLORE</a></button>
+      </div>
+      <div class="cardpro">
+        <img src="project/pro2.jpg" alt="project2" style="width:100%;">
+        <h3>WEB DEVELOPMENT PROJECT</h3>
+        <p>Project contains everything that defines your workspace for an app, from source code and assets, to test code and build configurations.</p>
+        <button><a href="#head">EXPLORE</a></button>
+      </div>
+      <div class="cardpro">
+        <img src="project/pro2.jpg" alt="project3" style="width:100%;">
+        <h3>WEB DEVELOPMENT PROJECT</h3>
+        <p>Project contains everything that defines your workspace for an app, from source code and assets, to test code and build configurations.</p>
+        <button><a href="#head">EXPLORE</a></button>
+      </div>
+      <div class="cardpro">
+        <img src="project/pro2.jpg" alt="project4" style="width:100%;">
+        <h3>WEB DEVELOPMENT PROJECT</h3>
+        <p>Project contains everything that defines your workspace for an app, from source code and assets, to test code and build configurations.</p>
+        <button><a href="#head">EXPLORE</a></button>
+      </div>
+</div>
+<!--vedios code-->
+<div class="vedios" id="vedios">
+   <h1 style="text-align: center;" class="sha"><strong>VEDIOS</strong></h1> 
+</div>
+<!--price code-->
+<div class="price" id="price">
+    <h1 style="text-align: center;" class="sha"><strong>PLAN PRICES</strong></h1> 
+    <br>
+    <div class="cardpri">
+        <img src="project/pro2.jpg" alt="price1" style="width:100%;height:30%;">
+        <h3>BASIC PLAN</h3>
+        <p class="money">FREE</p>
+        <p>Ut wisi enim ad minim veriam ,quis nosturd exerci tation 
+            ullamcorper suscipit lobortis nislut aliquip ex ea commodo consequat.</p>
+        <button><a href="#head" class="cardbut">BUY NOW</a></button>
+      </div>
+      <div class="cardpri">
+        <img src="project/pro2.jpg" alt="price2" style="width:100%;height:30%;">
+        <h3>STANDARD PLAN</h3>
+        <p class="money">$10</p>
+        <p>lorem ipsum dolor sit amet consectetuer adipiscing elit,seddiam
+           nonummy nibh euismod tincidunt ut laoreet dolore magna.
+        </p>
+        <button><a href="#head" class="cardbut">BUY NOW</a></button>
+      </div> 
+      <div class="cardpri">
+        <img src="project/pro2.jpg" alt="price3" style="width:100%;height:30%;">
+        <h3>PREMIUM PLAN</h3>
+        <p class="money">$20</p>
+        <p>Duis autem vel enum iriure dolor in hendreit in vulputate velit
+           esse molestie consequat,velillum dolore eu feugiat nulla 
+        </p>
+        <button><a href="#head" class="cardbut">BUY NOW</a></button>
+      </div> 
+</div>
+<!--team code-->
+<div class="team" id="team">
+    <h1 style="text-align: center;margin-left: 45px;" class="sha"><strong>OUR TEAM</strong></h1>
+  <img src="team/p1.jpg" alt="p1" class="avatar" style="margin-left: 200px;">
+  <img src="team/p2.jpg" alt="p2" class="avatar" style="margin-left: 150px;">
+  <img src="team/p3.jpg" alt="p3" class="avatar" style="margin-left: 150px;">
+  <br><br>
+  <span style="margin-left: 220px" class="name">SARA JHONSON</span>
+  <span style="margin-left: 190px"class="name">MAT ALLEX</span>
+  <span style="margin-left: 220px" class="name">CHRIS PHILIPS</span>
+  <br>
+  <span style="margin-left: 240px" class="prof">Senior Designer</span>
+  <span style="margin-left: 220px"class="prof">Art Director</span>
+  <span style="margin-left: 250px" class="prof">Creative Head</span>
+  <br>
+  <img src="team/p4.jpg" alt="p4" class="avatar" style="margin-left: 200px;">
+  <img src="team/p5.jpg" alt="p5" class="avatar" style="margin-left: 150px;">
+  <img src="team/p6.jpg" alt="p6" class="avatar" style="margin-left: 150px;">
+  <br><br>
+  <span style="margin-left: 220px" class="name">JIMMY SMITH</span>
+  <span style="margin-left: 200px"class="name">CELIENA ALIZA</span>
+  <span style="margin-left: 190px" class="name">CHRIS JHON</span>
+  <br>
+  <span style="margin-left: 220px" class="prof">Marketing manager</span>
+  <span style="margin-left: 220px"class="prof">SEO Monster</span>
+  <span style="margin-left: 230px" class="prof">Senior Designer</span>
+</div> 
+<!--signup code-->
+<div class="signup" id="signup">
+<div>
+<img src="backimages/signup.png" style="margin-top:200px;margin-left:30px">
+</div>
+<div class="container">
+<h1 style="text-align: center" class="sha"><strong>SIGNUP</strong></h1>
+<hr>
+  <form id="cred">
+    <label for="nameid"><b>Name</b></label>
+    <input type="text" placeholder="Enter Full-name" name="nameid"required>
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+    <label for="pass"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+    <label for="re-pass"><b>Re-enter Password</b></label>
+    <input type="password" placeholder="Re-enter Password" name="re-pass" required>
+    <button type="button" class="but" onclick="cred()"><a href="#head" class="submit"><b>SUBMIT</b></a></button>
+  </form>
+  </div>
+</div>
+<!--contact code-->
+   <div class="contact" id="contact">
+       <div class="c1">
+           <h3>OFFICE ADDRESS</h3>
+           <address style="font-size: 17px;">
+           <b>lorem ipsum dolor,234
+            <br>
+               1200 consecutive,
+            <br>
+               adispching.
+            </b>
+           </address>
+        </div>
+       <div class="c2">
+           <h3>CONTACT US</h3>
+           <p><em><b><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=ramrohith12@gmail.com" target="_blank"><i class="fa fa-envelope"></i>  ramrohith12@gmail.com</a></b><em></p>
+           <p><em><b><i class="fa fa-phone"></i>  +91 7569584955</em></b></p>
+        </div>
+        <div class="c2">
+            <h3>FOLLOW US</h3>
+            <a href="https://twitter.com/rohithreddykal1" target="_blank" ><i class="fa fa-twitter"></i></a>
+            <a href="https://www.facebook.com/ramrohithreddy12" target="_blank"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/ram_rohith__reddy12/" target="_blank"><i class="fa fa-instagram"></i></a>
+        </div>
+   </div>
+   </body>
+</html>

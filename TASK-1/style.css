@@ -1,0 +1,404 @@
+.head
+{
+ background-image: blue;
+ border: 5px outset orangered ; 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width:fill;
+  height:550px;
+}
+.head h1
+{
+    text-align: center;
+    margin-top: 200px;
+    color: whitesmoke;
+    border:4px solid whitesmoke;
+    width:650px;
+    height:80px;
+    margin-left:400px;
+    background-color: black;
+}
+.head h1:hover
+{
+   border-color:blueviolet;
+}
+.sha:hover 
+{
+    transform:scale(1.1);
+    text-shadow: 0 0 3px #FF0000;
+    cursor:context-menu;
+}
+span.logo
+{
+    text-align:left;
+    font-size: 40px;
+    color: whitesmoke;
+    margin-left:80px;
+}
+.mess:hover
+{
+    color: skyblue;
+}
+.contact
+{
+    border: 3px solid rgb(100, 93, 93); 
+    margin-top: 10px;
+    height:160px;
+    background-color: black;
+    color: white;
+}
+.c1
+{
+    float:left;
+    width:20%;
+    margin-left: 280px;
+    text-align: center;
+}
+.c2
+{
+    float:left;width:20%;
+    margin-left:60px;
+    text-align: center
+}
+.c2 >a>i
+{
+    color:red;
+    font-size:36px;
+}
+.c2>a>i:hover
+{
+    color:blue;
+}
+.c2>a>i:active
+{
+    color:purple;
+}
+.c2 h3:hover
+{
+    color: blueviolet;
+    cursor: pointer;
+}
+.c1 h3:hover
+{
+    color: blueviolet;
+    cursor:pointer;
+}
+.intro
+{  
+    float:left;
+    width:36%;
+    height:150px;
+    position:relative;
+    left:100px;
+    top:35px;
+    border:hidden;
+}
+.home-pic
+{
+    float:right;
+    width:20%;
+    height:180px;
+    margin-right:150px;
+}
+.cardhome
+{
+    width:100%;
+    margin-top:32px;
+    border:hidden;
+    height:54%;
+    float:left;
+}
+.cd
+{
+    border:hidden;
+    width:22%;
+    height:230px;
+    float:left;
+    margin-top:55px;
+    margin-left:108px;
+}
+.cd>i
+{   font-size: 56px;
+    margin-left:95px;
+    border-radius:50%;
+    overflow:visible;
+     background-color:purple;
+}
+.cd>i:hover
+{
+    cursor: pointer;
+}
+.avatar
+{
+    vertical-align: middle;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top:20px;
+}
+.avatar:hover
+{
+    cursor:pointer;
+}
+.team
+{
+    border: 5px outset orangered; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:650px;
+    width:1200px;
+    margin-left:160px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.name
+{
+    font-size: 19px;
+}
+.prof
+{
+    font-size: 17px;
+}
+.price
+{
+    border: 5px outset orangered; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:550px;
+    width:1200px;
+    margin-left:160px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.home
+{
+    border: 5px outset orangered; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:630px;
+    width:1200px;
+    margin-left:160px; 
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    position:relative;
+}
+.project
+{
+    border: 5px outset orangered; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:510px;
+    width:1200px;
+    margin-left:160px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.vedios
+{
+    border: 5px outset orangered; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:510px;
+    width:1200px;
+    margin-left: 160px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+.ved
+{
+    display: block;
+}
+.signup
+{
+    border: 5px outset orangered; 
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height:500px;
+    width:1200px;
+    margin-left:160px;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+    position: relative;
+}
+.signup div:nth-child(1)
+{
+    float:left;
+    height:100%;
+    width:40%;
+    text-align: center;
+}
+.signup div:nth-child(2)
+{
+    float:right;
+    height:100%;
+    width:58.8%;
+    text-align: center;
+    border-left: 6px solid orangered;
+}
+.submit
+{
+    color:red;
+    border:none;  
+}
+.but
+{   
+    width: 150px;
+    padding:10px 15px;
+    font-size: 20px;
+    border:3px solid black;
+    text-align: center;
+    position:absolute;
+    right:290px;
+    top:440px;
+}
+.but:hover
+{
+    background-color:yellowgreen;
+    border-radius: 15px;
+}
+.but:active
+{
+    background-color: purple;
+}
+.h1
+{
+    color:white;
+    text-align: left;
+}
+.ButG
+{
+    float:right;
+    margin-top: 20px;
+    margin-right:20px;
+}
+button
+{
+    background-color: transparent;
+    color: black;
+    text-align: center;
+}
+.add1
+{
+    margin-left: 400px;
+    text-align:left;
+    
+}
+.address
+{
+    text-align: left;
+}
+a
+{
+color:ghostwhite;
+text-decoration: none;
+margin-right: 2px;
+border:3px solid black;
+padding:2px;
+}
+a:hover 
+{
+    color:RED;
+}
+a.b 
+{
+    border-color: whitesmoke;
+}
+a.b:hover
+{
+    border-color: tomato;
+    color:blue;
+    border-radius: 12px;
+}
+em
+{
+font-size: 16px;
+}
+span.name
+{
+    font-weight: bold;
+}
+span.prof
+{
+    font-weight: lighter;
+}
+input
+{
+    width:60%;
+    padding:15px;
+    border:none;
+    background: lightgrey;
+    float: left;
+    margin-left: 20px;
+    clear:left;
+}
+label
+{
+    font-size: 28px;
+    float:left;
+    margin-left: 30px;
+    clear:left;
+}
+.cardpro 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border: 3px solid black;
+    text-align: center;
+    float:left;
+    margin-left: 53px;
+    width:20%;
+    box-sizing: border-box;
+}
+.cardpro:hover
+{
+    transform:scale(1.1);
+}
+.cardpro button{
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  .cardpro button:hover 
+{
+    opacity: 0.7;
+}
+.cardpri 
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border:3px solid black;
+    text-align: center;
+    float:left;
+    margin-left: 74px;
+    width:25%;
+    box-sizing: border-box;
+}
+.cardpri:hover
+{
+    transform:scale(1.06);
+}
+.money {
+    color: grey;
+    font-size: 22px;
+  }
+  
+.cardpri button 
+{
+    border: none;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .cardpri button:hover 
+  {
+    opacity: 0.8;
+  }
