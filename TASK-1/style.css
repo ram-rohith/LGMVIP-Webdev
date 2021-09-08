@@ -5,7 +5,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  width:fill;
+  width:100%;
   height:550px;
 }
 .head h1
@@ -199,15 +199,34 @@ span.logo
     border: 5px outset orangered; 
     margin-top: 10px;
     margin-bottom: 10px;
-    height:510px;
+    height:480px;
     width:1200px;
     margin-left: 160px;
     box-sizing: border-box;
     background-color: whitesmoke;
+    position:relative;
 }
 .ved
 {
     display: block;
+}
+.vedio-box
+{
+ box-sizing: border-box;   
+ position:absolute;
+ width:100%;
+ height:52%;
+ top:25%;
+}
+.vedio
+{
+    width:30%;
+    height:250px;
+    margin-left:30px;
+}
+.vedio:hover
+{
+    transform:scale(1.08);
 }
 .signup
 {
