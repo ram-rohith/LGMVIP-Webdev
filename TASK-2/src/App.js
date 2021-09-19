@@ -16,10 +16,13 @@ function App(){
     .then((json) => {
       console.log(json.data)
       setUsers(json.data); // Prints result from `response.json()` in getRequest
+    })
+    .catch((error) => {
+      console.error('Error:', error);
     });
-    setTimeout(()=>{
+    setTimeout(function(){
       cirfin(0);
-      },1500);/*for change of value cirin*/
+      },2000);/*for change of value cirin*/
     i>=1?i=0:i++;/*for increament of array*/
   };
   return (
